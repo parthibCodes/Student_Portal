@@ -1,0 +1,5 @@
+Admin roles------>
+
+1. Can add any student data
+2. can update any student data except(password)
+3. can delete a student data
