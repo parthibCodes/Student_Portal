@@ -80,6 +80,6 @@ const deleteStudent = asyncHandler(async(req,res,next)=>{
     }).catch(err=>{
         res.status(500).json({error:"Error deleting user: ",err});
     });
-});
+}); 
 
 export {registerAdmin,logInAdmin,updateStudentDetails,deleteStudent};
